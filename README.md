@@ -2,21 +2,6 @@
 
 A machine learning application that predicts data science salaries based on various job features such as experience level, job title, company size, and work arrangement.
 
-## Project Structure
-
-```
-salary-predictor/
-├── app/                 # Application code
-│   ├── main.py          # FastAPI application
-│   ├── models/          # Pydantic models
-│   ├── routers/         # API endpoints
-│   └── services/        # Business logic
-├── data/                # Data files
-├── model/               # Trained models
-├── notebooks/           # Jupyter notebooks
-└── tests/               # Test cases
-```
-
 ## Getting Started
 
 ### Prerequisites
@@ -28,7 +13,7 @@ salary-predictor/
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/salary-predictor.git
+   git clone https://github.com/lucas-lorensi/FastAPIDeploy.git
    cd salary-predictor
    ```
 
@@ -104,7 +89,7 @@ Example response:
 
 ## Testing
 
-Run tests with pytest:
+Run tests with:
 
 ```
 pytest
@@ -115,7 +100,3 @@ pytest
 The model was trained using XGBoost on the [Data Science Job Salaries dataset](https://www.kaggle.com/datasets/ruchi798/data-science-job-salaries) from Kaggle.
 
 See `notebooks/model_training.ipynb` for the training process.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
